@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root{
+    --green-primary: #00856F;
+    --green-light: #DCE9E2;
+    --green-light02: #F7F9F9;
+    --bege: #FFFAF1;
+    --green-hover: #00453A;
+
+    --gray-secundary: #061800;
+    --gray-paragraph: #384633;
+    --white: #fff;
+
+    --font-primary: 'DM Sans', sans-serif;
+}
+
+
+.chamada-principal{
+    background-color: var(--green-light);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.chamada-principal h4{
+    font-family: var(--font-primary);
+    color: var(--green-primary);
+    font-size: 1rem;
+    padding: 16px;
+}
+
+.chamada-principal h1{
+    font-family: var(--font-primary);
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    padding: 16px;
+}
+
+.chamada-principal p{
+    font-family: var(--font-primary);
+    color: var(--gray-paragraph);
+    font-size: 0.875rem;
+    line-height: 20px;
+    text-align: center;
+    padding: 16px;
+}
+
+.btn-chamada{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    width: 15rem;
+    height: 3rem;
+    border-radius: 50rem;
+    outline: none;
+    border: none;
+    background-color: var(--green-primary);
+    margin-top: 1.2rem;
+}
+
+.btn-chamada:hover{
+    background-color: var(--green-hover);
+    cursor: pointer;
+    
+}
+
+.btn-chamada a{
+    color: #fff;
+    text-transform: uppercase;
+    font-family: var(--font-primary);
+}
+
+.img-mulher{
+    width: 20rem;
+    height: 20rem;
+    margin-top: 1.4rem;
+}
+
+.dados{
+    font-family: var(--font-primary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bege);
+    width: 18rem;
+    border-radius: 10px;
+}
+
+.dados h3{
+    font-size: 2.6rem;
+    margin-top: 1.2rem;
+}
+
+.dados p{
+    color: var(--green-primary);
+    margin-top: -10px;
+}
